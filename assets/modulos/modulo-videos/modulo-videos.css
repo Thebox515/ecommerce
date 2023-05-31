@@ -1,0 +1,30 @@
+.box-info-container a {
+    text-decoration: none!important;
+}
+
+.boton-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.boton-tarjeta p {
+    margin: 0px;
+}
+
+.card-maker-body figure {
+    -webkit-box-shadow: 0 0 5px 0 #999999;
+    box-shadow: 0 0 5px 0 #999999;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.card-maker-body figure:hover {
+    -webkit-box-shadow: 0 0 15px 0 #9E9E9E;
+    box-shadow: 0 0 15px 0 #9E9E9E;
+}
